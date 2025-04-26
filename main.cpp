@@ -1,6 +1,6 @@
 #include "string/stringCount.h"
 
 int main(){
-    towNumber();
+    aaa();
     return 0;
 }

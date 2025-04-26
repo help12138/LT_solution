@@ -2,7 +2,7 @@
 file(GLOB SOURCE_FILES "*.cpp")
 
 # 创建库
-add_library(string_lib STATIC twoNums.cpp)
+add_library(string_lib STATIC ${SOURCE_FILES})
 
 # 设置包含路径
 target_include_directories(string_lib PUBLIC 
