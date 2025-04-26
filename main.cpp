@@ -1,6 +1,6 @@
-#include <iostream>
+#include "string/stringCount.h"
 
 int main(){
-    std::cout<< "hello LeetCode";
+    towNumber();
     return 0;
 }
