@@ -4,5 +4,6 @@
 #include <vector>
 using namespace std;
 
-void towNum();
+// 寻找数组的中心索引
+int pivotIndex(vector<int>& nums);
 #endif
