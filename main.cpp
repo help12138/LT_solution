@@ -1,6 +1,6 @@
-#include "string/stringCount.h"
+#include "list/listCount.h"
 
 int main(){
-    aaa();
+    towNum();
     return 0;
 }
