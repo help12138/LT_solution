@@ -66,3 +66,24 @@ int pivotIndex(vector<int>& nums){
     }
     return -1;
 }
+// 时间减半的方法
+int pivotIndex2(vector<int>& nums){
+    if(nums.empty()){
+        return -1;
+    }
+    int left = 0, countNum = 0;
+    int result = 0;
+    countNum = accumulate(nums.begin(), nums.end(), 0);
+
+    for (int i = 0; i < nums.size(); i++)
+    {
+        if(left * 2 + nums[i] == countNum){
+            result = i;
+            cout << result;
+            return result;
+        }
+        left += nums[i];
+    }
+    
+    return -1;
+}

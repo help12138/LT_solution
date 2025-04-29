@@ -1,8 +1,8 @@
 #include "list/listCount.h"
 
 int main(){
-    vector<int> list {-1,-1,-1,-1,-1,0};
+    vector<int> list {2, 1, -1};
 
-    pivotIndex(list);
+    pivotIndex2(list);
     return 0;
 }
