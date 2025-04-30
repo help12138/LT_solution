@@ -1,8 +1,8 @@
 #include "list/listCount.h"
 
 int main(){
-    vector<int> list {555,901,482,1771};
+    vector<int> list {3,2,4};
 
-    findNumbers(list);
+    twoSum(list, 6);
     return 0;
 }
