@@ -1,8 +1,8 @@
 #include "list/listCount.h"
 
 int main(){
-    vector<int> list {2, 1, -1};
+    vector<int> list {555,901,482,1771};
 
-    pivotIndex2(list);
+    findNumbers(list);
     return 0;
 }
