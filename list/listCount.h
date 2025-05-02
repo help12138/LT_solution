@@ -14,4 +14,6 @@ int pivotIndex2(vector<int>& nums);
 int findNumbers(vector<int>& nums);
 // 有人相爱，有人看海，有人leetcode第一题做不出来， 两数之和
 vector<int> twoSum(vector<int>& nums, int target);
+// 找到稳定山的下标
+vector<int> stableMountains(vector<int>& height, int threshold);
 #endif
