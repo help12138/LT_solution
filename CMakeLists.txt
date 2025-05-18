@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 4.0)
 project(LeetCode)
 
-add_executable(${PROJECT_NAME} main.cpp ${SOURCE})
+add_executable(${PROJECT_NAME} main.cpp)
 
 # 添加子目录
 add_subdirectory(string)

@@ -16,4 +16,6 @@ int findNumbers(vector<int>& nums);
 vector<int> twoSum(vector<int>& nums, int target);
 // 找到稳定山的下标
 vector<int> stableMountains(vector<int>& height, int threshold);
+// 加一
+vector<int> plusOne(vector<int>& digits);
 #endif
