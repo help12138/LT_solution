@@ -18,4 +18,6 @@ vector<int> twoSum(vector<int>& nums, int target);
 vector<int> stableMountains(vector<int>& height, int threshold);
 // 加一
 vector<int> plusOne(vector<int>& digits);
+//移动零
+void moveZeroes(vector<int>& nums);
 #endif

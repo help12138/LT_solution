@@ -1,11 +1,8 @@
 #include "list/listCount.h"
 
 int main(){
-    vector<int> list {1,2,3};
+    vector<int> list {0,1,0,3,12};
 
-    vector<int>result = plusOne(list);
-    for(const auto item : result){
-        cout << item << " ";
-    }
+    moveZeroes(list);
     return 0;
 }
